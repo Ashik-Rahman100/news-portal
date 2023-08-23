@@ -1,16 +1,16 @@
+import styles from "@/styles/Home.module.css";
 import {
-  ProfileOutlined,
-  MobileOutlined,
-  UserOutlined,
   FacebookFilled,
-  LinkedinFilled,
   GoogleSquareFilled,
+  LinkedinFilled,
+  MobileOutlined,
+  ProfileOutlined,
   TwitterSquareFilled,
+  UserOutlined,
 } from "@ant-design/icons";
 import { Layout, Menu } from "antd";
-const { Header, Content, Footer } = Layout;
-import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+const { Header, Content, Footer } = Layout;
 
 const RootLayout = ({ children }) => {
   return (

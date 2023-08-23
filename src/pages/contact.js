@@ -1,7 +1,7 @@
-import { Button } from "antd";
-import Link from "next/link";
-import Head from "next/head";
 import RootLayout from "@/components/Layouts/RootLayout";
+import { Button } from "antd";
+import Head from "next/head";
+import Link from "next/link";
 
 const ContactPage = () => {
   return (

@@ -1,8 +1,7 @@
+import RootLayout from "@/components/Layouts/RootLayout";
 import { Button } from "antd";
 import Head from "next/head";
 import Link from "next/link";
-import RootLayout from "@/components/Layouts/RootLayout";
-
 
 const AboutPage = () => {
   return (
@@ -30,7 +29,6 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
-
 
 AboutPage.getLayout = function getLayout(page) {
   return <RootLayout>{page}</RootLayout>;

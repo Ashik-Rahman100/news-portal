@@ -1,13 +1,13 @@
-import { Col, Row, Carousel } from "antd";
+import DrawingImage from "@/assets/images/banner-images/drawing_image.jpg";
+import EagleImage from "@/assets/images/banner-images/eagle_image.jpg";
 import {
   ArrowRightOutlined,
   CalendarOutlined,
   CommentOutlined,
   ProfileOutlined,
 } from "@ant-design/icons";
+import { Carousel, Col, Row } from "antd";
 import Image from "next/image";
-import DrawingImage from "@/assets/images/banner-images/drawing_image.jpg";
-import EagleImage from "@/assets/images/banner-images/eagle_image.jpg";
 
 const contentStyle = {
   height: "425px",
